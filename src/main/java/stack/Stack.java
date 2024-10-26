@@ -1,8 +1,11 @@
 package main.java.stack;
+
 public class Stack {
+
 	private String [] elements;
 
-	public void push(String element){
+	public void push(String element) {
+
 		int n;
 		if (elements == null) {
 			n = 0;
@@ -20,7 +23,9 @@ public class Stack {
 
 		elements = tempElements;
 	}
+
 	public String pop() {
+
 		int n;
 		if (elements == null) {
 			return null;
@@ -43,7 +48,8 @@ public class Stack {
 	}
 
 	public String peek(){
-		if (elements == null) {
+
+		if ((elements == null) || (elements.length == 0)) {
 			return null;
 		}
 		return elements[elements.length - 1];

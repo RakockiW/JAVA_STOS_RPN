@@ -6,6 +6,7 @@ import main.java.stack.Stack;
 import static org.junit.Assert.assertEquals;
 
 public class StackTest {
+	
 	@Test
 	public void testPopAfterPush() {
 		Stack stack = new Stack();
