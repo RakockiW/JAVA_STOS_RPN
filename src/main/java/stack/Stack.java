@@ -1,8 +1,9 @@
+package main.java.stack;
 public class Stack {
 	private String [] elements;
 
 	public void push(String element){
-
+		
 	}
 	public String pop(){
 		return "";
