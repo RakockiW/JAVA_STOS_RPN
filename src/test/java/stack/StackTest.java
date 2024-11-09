@@ -31,9 +31,12 @@ public class StackTest {
 		String result1 = stack.peek();
 		stack.push("napis2");
 		String result2 = stack.peek();
-
+		String result3 = stack.pop();
+		String result4 = stack.peek();
 		assertEquals("First push", "napis1", result1);
 		assertEquals("Second push", "napis2", result2);
+		assertEquals(result3, "napis2");
+		assertEquals(result4, "napis1");
 	}
 
 	@Test 

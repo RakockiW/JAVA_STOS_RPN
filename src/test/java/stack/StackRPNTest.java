@@ -33,6 +33,10 @@ public class StackRPNTest {
         op = "2 3 + 5 *";
 
         assertEquals(sut.doOperation(op), "25");
+
+        op = "7 5 -";
+
+        assertEquals(sut.doOperation(op), "-2");
     }
 
     @Test
